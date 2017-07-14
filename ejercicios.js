@@ -1,7 +1,7 @@
 //AGREGAR SUS FUNCIONES
 
 // funcion - ejercicio3.js
-function datosPersona(nombre,dia,mes,annio)
+function ejercicio3(nombre,dia,mes,annio)
 {
 	this.nombre = nombre;
 	this.dia = dia;
@@ -28,7 +28,7 @@ function datosPersona(nombre,dia,mes,annio)
     }
 }
 
-var persona1 = new datosPersona("Su" , 23 , 8 , 1991);
+var persona1 = new ejercicio3("Su" , 23 , 8 , 1991);
 
-console.log(persona1.calcularEdad());
+console.log(ejercicio3.calcularEdad());
 // CHIO
